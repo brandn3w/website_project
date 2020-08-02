@@ -1,0 +1,33 @@
+{ "scripts": {
+  "start": "run-p start:* ",
+  "start-silent": "run-p start > /dev/null",
+  "start:react": "react-scripts start",
+  "start-and-test": "run-p start-silent test ",
+  "build": "react-scripts build",
+  "test": "react-scripts test --noStackTrace",
+  "test-all": "react-scripts test --watchAll=false --noStackTrace",
+  "test-related": "react-scripts test --watchAll=false --noStackTrace --findRelatedTests",
+  "eject": "react-scripts eject"
+},
+"husky": {
+  "hooks": {
+    "pre-commit": "lint-staged"
+  }
+},
+"lint-staged": {
+  "src/**/*.js": [
+    "yarn test-related --",
+    "eslint"
+  ]
+},
+  "dependencies": {
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-test-renderer": "^16.13.1",
+    "redux": "^4.0.5"
+  }
+}
