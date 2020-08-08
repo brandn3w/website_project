@@ -4,16 +4,15 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
 class Homepage extends React.Component {
-    static PropTypes = {}
-}
-
+   
 render(){
 
     return(
-<main>
+<div className="container">
     <h1>Welcome</h1>
-</main>
+</div>
     )
 }
+};
 
 export default Homepage;
