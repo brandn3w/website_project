@@ -4,11 +4,14 @@ import PropTypes from 'prop-types';
 const Header =()=>{
 
     <div>
-        <Navbar className="navbar">
-            <Navlink className="navlink"></Navlink>
-            <Navlink className="navlink"></Navlink>
-            <Navlink className="navlink"></Navlink>
-        </Navbar>
+              
+              <ul id="nav">
+              <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Login</a></li>    
+              </ul>
+            
     </div>
 }
 
