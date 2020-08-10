@@ -2,17 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import PropTypes from 'prop-types';
+import {Container} from 'react-bootstrap';
 
 class Homepage extends React.Component {
    
 render(){
 
     return(
-<div className="container">
+<Container>
     <h1>Welcome</h1>
-</div>
+</Container>
     )
 }
 };
+Homepage.propTypes = {
+    children: PropTypes.node,
+    className: PropTypes.string,
+  };
 
 export default Homepage;
