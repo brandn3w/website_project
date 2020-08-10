@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 // import { store } from './redux/store';
 
 
-import  Homepage  from './components/views/Homepage';
+import  Homepage  from './components/views/Homepage/Homepage';
 // import { Post } from './components/views/Post/Post';
 // import { PostEdit } from './components/views/PostEdit/PostEdit';
 // import { PostAdd } from './components/views/PostAdd/PostAdd';
@@ -22,13 +22,17 @@ import  Homepage  from './components/views/Homepage';
 
 const App = () => (
   <div>
-<Switch>
+        <BrowserRouter>
+        
+            <Switch>
               <Route exact path='/' component={Homepage} />
               {/* <Route exact path='/post/add' component={PostAdd} />
               <Route exact path='/post/:id' component={Post} />
               <Route exact path='/post/:id/edit' component={PostEdit} />
               <Route path='*' component={NotFound} /> */}
             </Switch>
+            </BrowserRouter>
+
 </div>
 );
 
