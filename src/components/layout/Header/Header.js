@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 const Header =()=>{
 
-    <div>
-              
-              <ul id="nav">
-              <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Login</a></li>    
-              </ul>
+    <div>             
+              <Navbar bg="light" variant="light">
+              <Nav.Link href="#home"> Home</Nav.Link>
+                < Nav.Link> Shop</Nav.Link>
+                <Nav.Link href="#">Cart</Nav.Link>
+                <Nav.Link href="#" >Login</Nav.Link>    
+              </Navbar>
             
     </div>
 }
