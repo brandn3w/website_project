@@ -1,0 +1,18 @@
+@import "../../../../styles/settings.scss";
+@import "../../../../styles/global.scss";
+
+.navbar {
+    font-size: $base-size;
+display: flex;
+flex-direction: row-reverse;
+  
+}
+
+.topLink{
+    color: $color-dark;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+

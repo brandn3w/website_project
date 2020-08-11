@@ -2,16 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import PropTypes from 'prop-types';
-import {Container} from 'react-bootstrap';
+
 
 class Homepage extends React.Component {
    
 render(){
 
     return(
-<Container>
+
     <h1>Welcome</h1>
-</Container>
+
     )
 }
 };

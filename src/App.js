@@ -9,6 +9,7 @@ import { Provider } from 'react-redux';
 
 
 import  Homepage  from './components/views/Homepage/Homepage';
+import MainLayout from './components/layout/MainLayout/MainLayout';
 // import { Post } from './components/views/Post/Post';
 // import { PostEdit } from './components/views/PostEdit/PostEdit';
 // import { PostAdd } from './components/views/PostAdd/PostAdd';
@@ -22,8 +23,9 @@ import  Homepage  from './components/views/Homepage/Homepage';
 
 const App = () => (
   <div>
-        <BrowserRouter>
-        
+
+        <BrowserRouter>   
+        <MainLayout>   
             <Switch>
               <Route exact path='/' component={Homepage} />
               {/* <Route exact path='/post/add' component={PostAdd} />
@@ -31,6 +33,7 @@ const App = () => (
               <Route exact path='/post/:id/edit' component={PostEdit} />
               <Route path='*' component={NotFound} /> */}
             </Switch>
+            </MainLayout>  
             </BrowserRouter>
 
 </div>
