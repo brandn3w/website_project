@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 import { Navbar, Nav } from 'react-bootstrap';
 import styles from './Header.module.scss';
 
@@ -11,6 +11,7 @@ const Header = () => (
       <Nav.Link className={styles.topLink} href="#shop"> Shop</Nav.Link>
       <Nav.Link className={styles.topLink} href="#cart">Cart</Nav.Link>
       <Nav.Link className={styles.topLink} href="#login" >Login</Nav.Link>
+      <Nav.Link className={styles.topLink} href="#aboutme" >About Me</Nav.Link>
     </Navbar>
 
   </div>

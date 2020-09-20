@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+//import ReactDOM from 'react-dom';
 
 import PropTypes from 'prop-types';
 
@@ -9,9 +9,9 @@ class Homepage extends React.Component {
 render(){
 
     return(
-
-    <h1>Welcome</h1>
-
+<div>
+    <h1>Welcome to MoreMagic</h1>
+    </div>
     )
 }
 };
