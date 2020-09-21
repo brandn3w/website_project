@@ -8,10 +8,10 @@ import PropTypes from 'prop-types';
 
 //import styles from './NotFound.module.scss';
 
-const Component = ({className}) => (
-  <div >
- <p>Page not found</p>
- <a href="/">Homepage</a>
+const Component = () => (
+  <div>
+    <p>Page not found</p>
+    <a href="/">Homepage</a>
   </div>
 );
 

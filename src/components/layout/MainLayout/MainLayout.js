@@ -14,10 +14,10 @@ const MainLayout = ({ className, children }) => (
         <Header />
         <Homepage />
         <Hero/>
-      <Container className={styles.pageContainer}>
+      <Container>
           <Row>
-      <Col xs={12} md={8} lg={4} xl={4}> Blog </Col>
-      <Col xs={6} md={4} lg={2} xl={2}> Social Media </Col>
+      <Col xs={12} md={8} lg={8} xl={8}> Blog </Col>
+      <Col xs={6} md={4} lg={4} xl={4}> Social Media </Col>
       </Row>
  
       </Container>
