@@ -10,7 +10,7 @@ render(){
 
     return(
 <div>
-    <h1>Welcome to MoreMagic</h1>
+
     </div>
     )
 }

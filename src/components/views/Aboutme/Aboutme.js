@@ -6,8 +6,8 @@ function Aboutme() {
 
         <div>
             <h1>About me</h1>
-            <img src="https://i.imgur.com/XvFJ77A.jpg" alt="haru" />
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"</p>
+            <img src="https://i.imgur.com/NXrUkPS.png" alt="background" />
+            <p>"Magical jewelry made for you. I specialize in harajuku, decora, fairykei and uchuukei style. I repurpose things, too."</p>
         </div>
     );
 }

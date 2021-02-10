@@ -6,7 +6,7 @@ import styles from './Hero.module.scss';
 const Hero = () => (
 
     <div className={styles.heroWrapper}>
-        <img src="https://i.imgur.com/JEKb8DI.jpg" alt="background"/>
+        <img src="https://i.imgur.com/NXrUkPS.png" alt="background"/>
     </div>
 );
 
