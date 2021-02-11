@@ -2,7 +2,15 @@
 @import "../../../../styles/global.scss";
 
 .footerWrapper {
-    height:8vw;
-    width: 100%;
-    background-color: aqua;
+  height: 3vw;
+  width: 100%;
+  background-image: linear-gradient(to right, #e03b8b, #8d3daf, #5a20cb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    color: #fff;
+    margin-left: 1vw;
+  }
 }

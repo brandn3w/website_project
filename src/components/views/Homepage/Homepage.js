@@ -10,7 +10,7 @@ render(){
 
     return(
 <div>
-
+//this component is probably not needed
     </div>
     )
 }

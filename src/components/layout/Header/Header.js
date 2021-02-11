@@ -13,7 +13,7 @@ function Header() {
         <Nav.Link className={styles.topLink} href="#shop"> Shop</Nav.Link>
         <Nav.Link className={styles.topLink} href="#cart">Cart</Nav.Link>
         <Nav.Link className={styles.topLink} href="#login">Login</Nav.Link>
-        <Nav.Link className={styles.topLink} href="#aboutme">About Me</Nav.Link>
+        <Nav.Link className={styles.topLink} href="././Aboutme">About Me</Nav.Link>
       </Navbar>
 
     </div>

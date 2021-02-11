@@ -15,13 +15,14 @@ const MainLayout = ({ className, children }) => (
         <Header />
         <Homepage />
         <Hero/>
-      <Container>
+      {/* <Container>
           <Row>
       <Col xs={12} md={8} lg={8} xl={8}> Blog </Col>
       <Col xs={6} md={4} lg={4} xl={4}> Social Media </Col>
-      </Row>
- <Footer />
-      </Container>
+      </Row> */}
+
+      <Container/>
+      <Footer />
     </div>
 );
 
